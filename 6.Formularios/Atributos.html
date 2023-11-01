@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos</title>
+</head>
+<body>
+    <h1>Atributos Input</h1>
+    <hr>
+    <br>
+    <form action="https://www.google.com/search">
+        <label for="fnombre">Nombre del navegador:</label>
+        <input type="text" name="fnombre" id="fnombre" maxlength="15" minlength="5" placeholder="Ingrese su primer nombre" size="10" list="browser" pattern="[a-zA-Z]{1,15}">
+        <!--<datalist id="browser">
+            <option value="Chrome"></option>
+            <option value="Edge"></option>
+            <option value="Opera"></option>
+            <option value="Brave"></option>
+            <option value="Firefox"></option>
+        </datalist>-->
+
+        <br>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" id="pass">
+        <br>
+        <br>
+        lenguaje de progamacion
+        <br>
+        <input type="radio" name="lengpro" id="Ada" value="Ada">
+        <label for="lengpro">Ada</label><br>
+        <input type="radio" name="lengpro" id="Python" value="Python">
+        <label for="lengpro">Python</label><br>
+        <input type="radio" name="lengpro" id="Java" value="Java">
+        <label for="lengpro">Java</label><br>
+        <input type="radio" name="lengpro" id="JavaScript" value="JavaScript" checked>
+        <label for="lengpro">JavaScript</label><br>
+        <br>
+        pasatiempo
+        <br>
+        <input type="radio" name="pasatiempos" id="leer" value="leer">
+        <label for="pasatiempos">leer</label><br>
+        <input type="radio" name="pasatiempos" id="cine" value="cine">
+        <label for="pasatiempos">cine</label><br>
+        <input type="radio" name="pasatiempos" id="gym" value="gym">
+        <label for="pasatiempos">gym</label><br>
+        <input type="radio" name="pasatiempos" id="progamar" value="progamar" checked>
+        <label for="pasatiempos">progamar</label><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" name="Restablecer">
+        <br>
+        <br>
+        <input type="button" value="Ver Mensaje" onclick="alert('Python me odia :c')">
+        <br>
+        <label for="colorfav">Escoja un color</label>
+        <input type="color" name="colorfav" id="colorfav">
+        <br>
+        <label for="fechana">Fecha de nacimiento</label>
+        <input type="date" name="fechana" id="fechana">
+        <br>
+        <label for="fechanaant">Ingrese una fecha anterior al 2000/01/01</label>
+        <input type="date" name="fechanaant" id="fechanaant" max="1999-12-31">
+        <br>
+        <label for="fechanapos">Ingrese una fecha posterior al 2020/01/01</label>
+        <input type="date" name="fechanapos" id="fechanapos" max="2020-01-02">
+        <br>
+        <label for="fecha-hora-nac">Fecha y hora de nacimiento</label>
+        <input type="datetime-local" name="fecha-hora-nac" id="fecha-hora-nac">
+        <br>
+        <label for="iemail">Ingrese su correo</label>
+        <input type="email" name="iemail" id="iemail">
+        <br>
+        <input type="image" src="./Spiderman.jpg" alt="hombrearaña" width="15%" onclick="alert('Adios')">
+        <br>
+        <label for="archivo">Escoja un archivo</label>
+        <input type="file" name="archivo" id="archivo" accept=".jpg, .png, .gif,">
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Restablecer">
+
+        <input type="hidden" name="estado" id="estado" value="completo">
+        <br>
+        <label for="mesnac">Mes de nacimiento</label>
+        <input type="month" name="mesnac" id="mesnac">
+        <br>
+        <label for="edad">edad</label>
+        <input type="number" name="edad" id="edad" min="18" max="28" value="25" step="2">
+        <br>
+        <label for="volumen">Seleccione el volumen</label>
+        <input type="range" name="volumen" id="volumen" min="0" max="100" step="1">
+        <br>
+        <label for="busqueda">Buscar en google</label>
+        <input type="search" name="q" id="busqueda">
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+        <br>
+        <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
