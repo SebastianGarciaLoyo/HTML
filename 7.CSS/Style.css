@@ -1,0 +1,19 @@
+*{
+    color:blueviolet;
+}
+
+p{
+    color: steelblue;
+}
+.text-import{
+    color: aqua;
+    font-size: 1,5em;
+}
+#text-html{
+    color: violet;
+    font-size: 1,5em;
+}
+div p sub{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}

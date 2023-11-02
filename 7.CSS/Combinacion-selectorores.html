@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinacion de selectores</title>
+
+<style>
+    p + p{
+        color: tomato;
+    }
+    
+    div + div span{
+        color: rebeccapurple;
+    }
+    
+    div span{
+        font-weight: bold;
+    }
+    /*Derechos de autor mios
+        El que lo roba es un tonto*/
+    div~ div{
+        color: teal;
+    }
+    
+</style>
+
+</head>
+<body>
+    <div class="abuelo">
+        <div class="padre">
+            <p>Hugo</p>
+            <p>Paco</p>
+            <p>Luis</p>
+            </div>
+            <span>Bisnietos</span>
+            <p>Primo</p>
+            <div>Sobrino</div>        
+    </div>  
+        <div class="hermano">
+            <span>Nieto</span>
+        </div>
+        
+</body>
+</html>
