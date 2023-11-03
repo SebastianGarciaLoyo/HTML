@@ -1,0 +1,33 @@
+.contenedor{
+    border:5px solid red;
+    margin: 50px auto;
+}
+
+
+.contenedor1{
+    border: 4px solid green;
+    width: 50%;
+    margin: 10px;
+    text-shadow: 1px 3px 3px orange;
+}
+
+.contenedor2{
+    border: 4px solid blue;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-shadow: 1px 3px 3px orange;
+}
+
+.contenedor3{
+    border: 4px solid orange;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-shadow: 1px 3px 3px orange;
+}
+
+.final{
+    margin-left: 400px;
+    text-shadow: 1px 3px 3px orange;
+}

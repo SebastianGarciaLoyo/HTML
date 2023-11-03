@@ -1,0 +1,32 @@
+
+#cabeza{
+    background-color: pink;
+}
+
+.Inicio{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.Quienes{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.Contacto{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+}
