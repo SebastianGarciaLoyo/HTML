@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+}
+
+
+h1{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2{
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.caja1{
+    border: 2px solid white;
+}
+
+.caja2{
+   border: 2px solid white;
+}
+
+.caja3{
+   border: 2px solid white;
+}
+
+.caja4{
+   border: 2px solid white;
+}
+
+.caja5{
+   border: 2px solid white;
+}
+
+.caja6{
+   border: 2px solid white;
+}
+
+.caja7{
+   border: 2px solid white;
+}
+
+.caja8{
+   border: 2px solid white;
+}
