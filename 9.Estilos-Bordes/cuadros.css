@@ -1,0 +1,46 @@
+.caja1 {
+    height: 120vh;
+    width: 80%;
+    margin: 50px;
+    padding: 20px;
+    border: 6px outset;
+}
+
+
+.negro div{
+    background-color: black;
+    height: 25px;
+    border-bottom: 2px solid white;
+    border: 1px solid white;
+}
+
+.gris{
+    background: linear-gradient(180deg,gray,gray);
+
+}
+
+.gris div{
+    height: 25px;
+    border-bottom: 2px solid black;
+    border: 2px solid rgb(54, 54, 54);
+}
+
+.rojo div{
+    height: 25px;
+    margin-bottom: 2px solid;
+    border: 2px solid gray;
+    background-color:red;
+}
+
+.rojo div + div + div{
+    margin: 0;
+}
+
+.rosa{
+    background: linear-gradient(180deg, white,pink);
+}
+
+.rosa div{
+    height: 25px;
+    border: 1px solid gray;
+}
