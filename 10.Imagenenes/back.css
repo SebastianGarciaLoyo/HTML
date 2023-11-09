@@ -11,9 +11,20 @@ body{
     background-repeat: no-repeat;
     /*background-position:;*/
     /*background-size: ;*/
-    background: linear-gradient(rgb(214, 191, 191, .4),rgb(214, 191, 191, .4)), url(Astronauta.jpeg);
+    background: linear-gradient(rgb(214, 191, 191, .4),rgb(214, 191, 191, .4)), url(./Imagenes/Astronauta.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.profile{
+    background-image: url(./Imagenes/Guts.jpg);
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-position: 50% 10%;
+    border-radius: 50%;
 }

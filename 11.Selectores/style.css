@@ -1,0 +1,16 @@
+img{
+    background: tomato;
+    border: 6px solid red;
+}
+
+a[class=""]{
+    color: green;
+}
+
+a[href="https://www.eniun.com"]{
+    color: pink;
+}
+
+a[class="externo interno"]{
+    color: purple;
+}
