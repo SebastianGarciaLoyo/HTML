@@ -6,12 +6,12 @@ button{
 }
 
 button::before{
-    content: url(flecha_inactiva.png);
+    content: url(./Imagenes/flecha_inactiva.png);
     padding: 10px;
 }
 
 button:hover:before{
-    content: url(flecha_activa.png);
+    content: url(./Imagenes/flecha_activa.png);
     padding: 10px;
 }
 
