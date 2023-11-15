@@ -4,8 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBasis</title>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(Sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    border: 2px solid black;
+    background-color: #CAFFBF;
+    text-align: center;
+}
+
+h2{
+    border: 2px solid black;
+    background-color: #A0C4FF;
+    text-align: center;
+}
+
+p{
+    border: 2px solid black;
+    background-color: #ffd6a5;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.item{
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.item1{
+    flex-basis: 200px;
+    background-color:#ffef9f ;
+}
+
+.item2{
+    flex-basis: 150px;
+    background-color: #90f1ef;
+}
+
+.item3{
+    flex-basis: 250px;
+    background-color: #c1fba4;
+}
+
+
+</style>
 </head>
 <body>
-    
+    <h1>Ejercicio3</h1>
+    <h2>FlexBasis</h2>
+    <p>La propiedad <strong>FlexBasis</strong> establece el tamaño inicial del elemento, antes de que se reparta en su caso el espacio libre</p>
+    <div class="contenedor">
+        <div class="item item1">Que</div>
+        <div class="item item2">tal</div>
+        <div class="item item3">tu dia?</div>
+    </div>
 </body>
 </html>
