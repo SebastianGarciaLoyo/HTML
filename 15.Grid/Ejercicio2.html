@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .contenedor{
+        display: grid;
+        height: 70vh;
+        width: 100vw;
+        background-color: #f7f5f8;
+        grid-template-areas:"principal principal uno dos" 
+                            "principal principal tres cuatro"
+                            "cinco seis siete ocho";
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto ;
+        gap: 1.8vw;
+    }
+
+    .caja{
+        border: 2px solid;
+        background-color: #19232f;
+        grid-area: principal;
+        width: 50vh;
+        height: 30vw;
+    }
+    .texto{
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .item1{
+        background-color: #ea9c38;
+        grid-area: uno;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        
+    }
+    .item2{
+        background-color: #b6c6d3;
+        grid-area: dos;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .item3{
+        background-color: #19232f;
+        grid-area: tres;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .item4{
+        background-color: #b6c6d3;
+        grid-area: cuatro;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .item5{
+        background-color: #ea9c38;
+        grid-area: cinco;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .item6{
+        background-color: #19232f;
+        grid-area: seis;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .item7{
+        background-color: #b6c6d3;
+        grid-area: siete;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .item8{
+        background-color: #19232f;
+        grid-area: ocho;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    img{
+        width:70%;
+        height: 60%;
+        padding-left:10px;
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja">
+            <div class="texto">Grid Layout IV</div>
+            <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe non nihil dolorem! Aut temporibus velit saepe, magnam excepturi eum facere, maiores at nam quod sed dolorem maxime ipsa ut perspiciatis.</div>
+        </div>
+        <div class="item1"></div>
+        <div class="item2"><img src="./icon-megaphone.png" alt="megafono"></div>
+        <div class="item3"><img src="./icon-bicycle.png" alt="cicla"></div>
+        <div class="item4"><img src="./icon-bug.png" alt="bug"></div>
+        <div class="item5"><img src="./icon-fast-food.png" alt="comida"></div>
+        <div class="item6"></div>
+        <div class="item7"><img src="./icon-game-controller.png" alt="control"></div>
+        <div class="item8"></div>
+    </div>
+</body>
+</html>
