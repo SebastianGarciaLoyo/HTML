@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'minecraft';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fuente/minecraft_font.ttf') format('truetype');
+    }
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +12,32 @@
 }
 
 body{
-    background-image: url(tierra.jpg);
+    background-image: url(minecraft.jpeg);
 }
 
 header{
     background-color: green;
+    text-align: center;
+    width: 100vw;
+    height: 50px;
+    font-family: 'minecraft';
+
 }
 
 #navegacion{
-    
+background-color: rgba(0, 243, 28, 0.8);
+display:flex ;
+list-style: none;
+text-align: center;
+}
+.item{
+width:calc(100vw /5);
+padding: 0.5rem;
+border-right: 2px solid white;
+font-family: sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
 }

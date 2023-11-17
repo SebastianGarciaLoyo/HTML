@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.caja{
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 16px;
+}
+
+
+
+@media (max-width:480px){
+.caja{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.foto1{
+    order: 1;
+}
+.foto2{
+    order: 4;
+}
+.foto3{
+    order: 3;
+}
+.foto4{
+    order: 2;
+}
+}
+
+@media (min-width:480px) and (max-width:768px){
+    .caja{
+        flex-wrap: wrap;
+    }
+}
+</style>
+</head>
+<body>
+    <header>¡Feliz Navidad!</header>
+
+    <div class="caja">
+        <div class="foto1"><img src="./Imagenes/papanoel.png" alt="noel"></div>
+        <div class="foto2"><img src="./Imagenes/cerdito.png" alt="cerdo"></div>
+        <div class="foto3"><img src="./Imagenes/elfo.png" alt="elfo"></div>
+        <div class="foto4"><img src="./Imagenes/arbolnavideño.png" alt="arbol"></div>
+    </div>
+</body>
+</html>
