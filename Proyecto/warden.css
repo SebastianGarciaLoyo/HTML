@@ -12,11 +12,14 @@
 }
 
 body{
-    background-image: url(minecraft.jpeg);
+    background-image: url(./imagenes/minecraft.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-header{
-    background-color: green;
+#titulo{
+    background-color: #77dd77;
     text-align: center;
     width: 100vw;
     height: 50px;
@@ -25,7 +28,7 @@ header{
 }
 
 #navegacion{
-background-color: rgba(0, 243, 28, 0.8);
+background-color:#84b6f4;
 display:flex ;
 list-style: none;
 text-align: center;
@@ -40,4 +43,27 @@ font-family: sans-serif;
 a{
     text-decoration: none;
     color: black;
+}
+
+.sub{
+    text-align: center;
+    color: white;
+}
+
+.contenido{
+    background-color: rgba(253, 253, 150, 0.55);
+    backdrop-filter: blur(4px);
+    display: grid;
+    justify-content: space-between;
+    /*gap: 1rem;*/
+}
+
+.imagen{
+    height: 16vw;
+    width: 16vw;
+}
+
+.texto{
+    width:calc(100vw - 10vw) ;
+    border: 2px solid;
 }
