@@ -53,17 +53,21 @@ a{
 .contenido{
     background-color: rgba(253, 253, 150, 0.55);
     backdrop-filter: blur(4px);
-    display: grid;
-    justify-content: space-between;
+    display: flex;
+    justify-content: flex-end;
+    grid-template-columns: ;
     /*gap: 1rem;*/
 }
 
 .imagen{
     height: 16vw;
     width: 16vw;
+    
 }
 
 .texto{
-    width:calc(100vw - 10vw) ;
+    width:calc(80vw - 10vw) ;
     border: 2px solid;
+    border-left: none;
+    font-size: larger;
 }
