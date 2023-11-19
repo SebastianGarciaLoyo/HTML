@@ -55,7 +55,6 @@ a{
     backdrop-filter: blur(4px);
     display: flex;
     justify-content: flex-end;
-    grid-template-columns: ;
     /*gap: 1rem;*/
 }
 
@@ -68,6 +67,7 @@ a{
 .texto{
     width:calc(80vw - 10vw) ;
     border: 2px solid;
-    border-left: none;
+    /*border-left: none;*/
     font-size: larger;
+    text-align: center;
 }
