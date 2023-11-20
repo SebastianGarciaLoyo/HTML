@@ -54,20 +54,34 @@ a{
     background-color: rgba(253, 253, 150, 0.55);
     backdrop-filter: blur(4px);
     display: flex;
+    height: fit-content;
     justify-content: flex-end;
     /*gap: 1rem;*/
 }
 
 .imagen{
-    height: 16vw;
-    width: 16vw;
+    height: 17vw;
+    width: 17vw;
     
 }
 
 .texto{
     width:calc(80vw - 10vw) ;
     border: 2px solid;
-    /*border-left: none;*/
     font-size: x-large;
     text-align: center;
+}
+
+@media (max-width:480px){
+    .texto{
+        font-size: medium;
+    }
+
+    .imagen{
+        
+    }
+
+    .video{
+        
+    }
 }
