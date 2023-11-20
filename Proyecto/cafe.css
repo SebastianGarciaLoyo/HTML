@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'minecraft';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fuente/Minecrafter.Reg.ttf") format('truetype');
+    }
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(./imagenes/minecraft.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+#titulo{
+    display: flex;
+    background-color: #77dd77;
+    text-align: center;
+    width: 100vw;
+    height: 53px;
+    font-family: 'minecraft';
+    padding: 1rem;
+    font-size: smaller;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: left;
+}
+
+#navegacion{
+background-color:#84b6f4;
+display:flex ;
+list-style: none;
+text-align: center;
+width: fit-content;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
