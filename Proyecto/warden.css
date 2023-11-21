@@ -122,8 +122,16 @@ a{
 
 @media (max-width:480px){
     #titulo{
-        width: 101vw;
-        height: 50px;
+        width: 100vw;
+        height: 53px;
+        padding: 1rem;
+    }
+
+    .item{
+        display: flex;
+        justify-content: flex-start;
+        width:calc(101vw /5);
+        padding: 0.3rem;
     }
     
     .texto{

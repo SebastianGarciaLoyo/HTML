@@ -129,6 +129,13 @@ a{
         width: 101vw;
         height: 50px;
     }
+
+    .item{
+        display: flex;
+        justify-content: flex-start;
+        width:calc(101vw /5);
+        padding: 0.3rem;
+    }
     
     .texto{
         font-size: medium;

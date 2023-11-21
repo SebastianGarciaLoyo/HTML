@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guias Para Minecraft</title>
-    <link rel="stylesheet" href="warden.css">
+    <link rel="stylesheet" href="./cafe.css">
 </head>
 <body>
     <header id="titulo">
@@ -13,11 +13,24 @@
     </header>
     <nav>
         <ul id="navegacion">
-            <li class="item"><a href="#">Inicio</a></li>
+            <li class="item"><a href="./Guias-Minecraft.html">Inicio</a></li>
             <li class="item"><a href="./Guias.html">Guias</a></li>
             <li class="item"><a href="./Ideas-Casa.html">Ideas de casas</a></li>
             <li class="item"><a href="./Ideas-Granjas.html">Ideas de granja</a></li>
-            <li class="item"><a href="./Coffe.html">Coffe</a></li>
+            <li class="item"><a href="#">Coffe</a></li>
         </ul>
     </nav>
     <br><br>
+    <h2 class="sub">Formulario</h2>
+    <main class="contenedor">
+        <form class="formu" action="">
+            <p>Nombre: <input type="text" name="nombre" size="30"></p>
+            <p>Edad: <input type="number" name="edad" min="0"></p>
+            <p>Correo: <input type="text" name="correo" size="30"></p>
+            <p>Coffe: <input type="number" name="cafe"></p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </main>
