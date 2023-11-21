@@ -2,7 +2,7 @@
     font-family: 'minecraft';
     font-style: normal;
     font-weight: normal;
-    src: url('./fuente/minecraft_font.ttf') format('truetype');
+    src: url("./fuente/Minecrafter.Reg.ttf") format('truetype');
     }
 
 *{
@@ -16,15 +16,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow-x: hidden;
 }
 
 #titulo{
+    display: flex;
     background-color: #77dd77;
     text-align: center;
     width: 100vw;
-    height: 50px;
+    height: 53px;
     font-family: 'minecraft';
+    padding: 1rem;
+    font-size: smaller;
+    justify-content: center;
+    align-items: center;
+}
 
+.logo{
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: left;
 }
 
 #navegacion{
@@ -32,22 +44,26 @@ background-color:#84b6f4;
 display:flex ;
 list-style: none;
 text-align: center;
+width: fit-content;
+
 }
 .item{
-width:calc(100vw /5);
+width:calc(101vw /5);
 padding: 0.5rem;
 border-right: 2px solid white;
-font-family: sans-serif;
+font-family: 'minecraft';
 
 }
 a{
     text-decoration: none;
     color: black;
+
 }
 
 .sub{
     text-align: center;
     color: white;
+    font-family: 'minecraft';
 }
 
 .contenido{
@@ -56,32 +72,86 @@ a{
     display: flex;
     height: fit-content;
     justify-content: flex-end;
-    /*gap: 1rem;*/
+    font-family: 'minecraft';
+}
+
+.contenido2{
+    background-color: rgba(253, 253, 150, 0.55);
+    backdrop-filter: blur(4px);
+    display: flex;
+    height: fit-content;
+    justify-content: flex-end;
+    font-family: 'minecraft';
 }
 
 .imagen{
-    height: 17vw;
-    width: 17vw;
+    height: 16vw;
+    width: 16vw;
     
 }
 
+.imagen2{
+    height: 16vw;
+    width: 16vw;
+}
+
+.imagen3{
+    height: 16vw;
+    width: 16vw;
+}
+
 .texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:calc(80vw - 10vw) ;
     border: 2px solid;
     font-size: x-large;
     text-align: center;
 }
 
+.texto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:calc(80vw - 10vw) ;
+    border: 2px solid;
+    font-size: large;
+    text-align: center;
+}
+
 @media (max-width:480px){
+    #titulo{
+        width: 101vw;
+        height: 50px;
+    }
+    
     .texto{
         font-size: medium;
-    }
-
-    .imagen{
         
     }
 
-    .video{
-        
+    .texto2{
+        font-size: medium;
+        width: auto;
+    }
+
+    .imagen2{
+        display: none;
+    }
+
+    .imagen3{
+    display: none;
+    }
+    
+    .contenido2{
+        width: 100%;
+    }
+    
+    .logo{
+    width: 9vw;
+    height: 9vw;
+    display: flex;
+    justify-content: left;
     }
 }
