@@ -108,6 +108,15 @@ a{
     width: 16vw;
 }
 
+.buscar{
+    display: flex;
+    justify-content: right;
+    float: right;
+    position: absolute;
+    font-family: 'minecraft';
+    
+}
+
 .texto{
     display: flex;
     justify-content: center;
@@ -173,5 +182,23 @@ a{
     justify-content: left;
     }
 
-    
+    .buscar{
+        top: 7rem;
+    }
+}
+
+@media(max-width:960px){
+    .logo{
+        width: 5vw;
+        height: 5vh;
+    }
+
+    .texto{
+    font-size: medium;
+    letter-spacing: 1px;
+    }
+
+    .buscar{
+        top: 7rem;
+    }
 }

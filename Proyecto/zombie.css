@@ -118,7 +118,14 @@ a{
     text-align: center;
 }
 
-
+.buscar{
+    display: flex;
+    justify-content: right;
+    float: right;
+    position: absolute;
+    font-family: 'minecraft';
+    
+}
 
 @media (max-width:480px){
     body{
@@ -173,5 +180,24 @@ a{
     justify-content: left;
     }
 
-    
+    .buscar{
+        top: 7rem;
+    }
+}
+
+@media(max-width:960px){
+    .logo{
+        width: 5vw;
+        height: 5vh;
+    }
+
+    .texto{
+    font-size: medium;
+    letter-spacing: 1px;
+    }
+
+    .buscar{
+        top: 7rem;
+    }
+
 }
