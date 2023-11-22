@@ -138,7 +138,18 @@ a{
         font-size: medium;
         line-height: 22px;
         letter-spacing: 1px;
-        
+        width: auto;
+    }
+
+    .imagen{
+        display: none;
+    }
+
+    .item{
+        display: flex;
+        justify-content: flex-start;
+        width:calc(101vw /5);
+        padding: 0.3rem;
     }
 
     .logo{
@@ -161,13 +172,14 @@ a{
 
 @media(max-width:960px){
     .logo{
-        width: 5vw;
+        width: 8vw;
         height: 5vh;
     }
 
     .texto{
     font-size: medium;
     letter-spacing: 1px;
+    line-height: 1rem;
     }
 
     .enviar{
@@ -178,5 +190,11 @@ a{
     .reset{
         width: 10vw;
         height: 4vh;
+    }
+}
+
+@media(max-width:1328px){
+    .texto{
+        font-size: medium;
     }
 }

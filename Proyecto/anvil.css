@@ -148,7 +148,11 @@ a{
     
     .texto{
         font-size: medium;
-        
+        width: auto;
+    }
+
+    .imagen{
+        display: none;
     }
 
     .imagen2{
@@ -189,7 +193,7 @@ a{
 
 @media(max-width:960px){
     .logo{
-        width: 5vw;
+        width: 8vw;
         height: 5vh;
     }
 
@@ -198,7 +202,37 @@ a{
     letter-spacing: 1px;
     }
 
+    .imagen2{
+        display: none;
+    }
+
+    .imagen3{
+    display: none;
+    }
+
+    .imagen4{
+        display: none;
+    }
+
+    .imagen5{
+        display: none;
+    }
+
+    .imagen6{
+        display: none;
+    }
+
     .buscar{
         top: 7rem;
+    }
+}
+
+@media(max-width:1328px){
+    .texto{
+        font-size: medium;
+    }
+
+    .video{
+        height: auto;
     }
 }

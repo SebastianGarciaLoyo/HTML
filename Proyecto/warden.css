@@ -152,7 +152,7 @@ a{
         font-size: medium;
         line-height: 22px;
         letter-spacing: 1px;
-        
+        width: auto;
     }
 
     .texto2{
@@ -160,6 +160,10 @@ a{
         width: auto;
         line-height: 22px;
         letter-spacing: 1px;
+    }
+
+    .imagen{
+        display: none;
     }
 
     .imagen2{
@@ -187,8 +191,12 @@ a{
 }
 
 @media(max-width:960px){
+    body{
+        height: 100vh;
+    }
+    
     .logo{
-        width: 5vw;
+        width: 8vw;
         height: 5vh;
     }
 
@@ -200,9 +208,40 @@ a{
     .texto2{
     font-size: medium;
     line-height: 19px;
+    width: auto;
+    }
+
+    .imagen2{
+        display: none;
+    }
+
+    .imagen3{
+        display: none;
+    }
+
+    .video{
+        height: 100vw;
     }
 
     .buscar{
         top: 7rem;
+    }
+}
+
+@media(max-width:1328px){
+    .texto{
+        font-size: medium;
+    }
+
+    .texto2{
+        width: auto;
+    }
+
+    .imagen2{
+        display: none;
+    }
+
+    .video{
+        height: auto;
     }
 }
