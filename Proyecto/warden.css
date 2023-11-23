@@ -135,7 +135,9 @@ a{
 }
 
 @media (max-width:480px){
-    
+    body{
+        background-size: 100vh;
+    }
     
     #titulo{
         width: 100vw;
