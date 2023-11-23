@@ -203,6 +203,8 @@ a{
 @media(max-width:480px){
     body{
         background-size: 100vh;
+        background-position: center;
+        background-size: cover;
     }
     
     .texto{
