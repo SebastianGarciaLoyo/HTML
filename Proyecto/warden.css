@@ -135,6 +135,10 @@ a{
 }
 
 @media (max-width:480px){
+    body{
+        background-size: 100vh;
+    }
+    
     #titulo{
         width: 100vw;
         height: 53px;
@@ -207,7 +211,6 @@ a{
 
     .texto2{
     font-size: medium;
-    line-height: 19px;
     width: auto;
     }
 
@@ -226,6 +229,8 @@ a{
     .buscar{
         top: 7rem;
     }
+
+    
 }
 
 @media(max-width:1328px){
