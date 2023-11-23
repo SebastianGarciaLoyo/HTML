@@ -48,7 +48,7 @@ width: fit-content;
 
 }
 .item{
-width:calc(101vw /5);
+width:calc(100vw /5);
 padding: 0.5rem;
 border-right: 2px solid white;
 font-family: 'minecraft';
@@ -144,7 +144,7 @@ a{
     .item{
         display: flex;
         justify-content: flex-start;
-        width:calc(101vw /5);
+        width:calc(100vw /5);
         padding: 0.3rem;
     }
     
@@ -196,8 +196,8 @@ a{
     }
     
     .logo{
-        width: 8vw;
-        height: 5vh;
+        width: 7vw;
+        height: 6vh;
     }
 
     .texto{

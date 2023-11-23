@@ -17,6 +17,7 @@ body{
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
+    overflow-y: hidden;
     height: 100vh;
 }
 
@@ -34,7 +35,7 @@ body{
 }
 
 .item{
-    width:calc(101vw /5);
+    width:calc(100vw /5);
     padding: 0.5rem;
     border-right: 2px solid white;
     font-family: 'minecraft';
@@ -74,8 +75,8 @@ a{
 }
 
 .imagen{
-    height: 16vw;
-    width: 16vw;
+    height: 15vw;
+    width: 15vw;
     
 }
 
@@ -123,6 +124,18 @@ a{
     gap: 1rem;
 }
 
+.edad{
+    width: 40px;
+    position: relative;
+    left: 24px;
+}
+
+
+
+.cafe{
+    width: 110px;
+}
+
 .enviar{
     width: 4vw;
     height: 4vh;
@@ -131,6 +144,60 @@ a{
 .reset{
     width: 4vw;
     height: 4vh;
+}
+
+.cubo{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    left: 100px;
+}
+
+.cubo:hover{
+    background-image: url("./imagenes/goku-prowler.gif");
+    background-size: cover;
+    transition: all 0.5s;
+    opacity:3;
+}
+
+.tocalo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    
+}
+
+.cubo2{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 150px;
+    right: 100px;
+
+}
+
+.cubo2:hover{
+    background-image: url("./imagenes/roca.gif");
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.cubo2:hover > .tocalo {
+    opacity: 0;
+}
+
+.cubo:hover > .tocalo {
+    opacity: 0;
 }
 
 @media(max-width:480px){
@@ -148,7 +215,7 @@ a{
     .item{
         display: flex;
         justify-content: flex-start;
-        width:calc(101vw /5);
+        width:calc(100vw /5);
         padding: 0.3rem;
     }
 
@@ -172,8 +239,13 @@ a{
 
 @media(max-width:960px){
     .logo{
-        width: 8vw;
-        height: 5vh;
+        width: 7vw;
+        height: 6vh;
+    }
+
+    .imagen{
+        height: 15vw;
+        width: 15vw;
     }
 
     .texto{
