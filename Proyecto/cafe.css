@@ -285,12 +285,12 @@ a{
     .cubo{
         position: relative;
         left: 100px;
-        bottom: 2px;
+        bottom: 10px;
     }
 
     .cubo2{
         right: 100px;
-        bottom: 150px;
+        bottom: 160px;
     }
 }
 
